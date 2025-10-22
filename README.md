@@ -1,5 +1,11 @@
 # HTWG-Cloud-App-Dev-HW3
+How to Build
 
+<pre>
+docker build -t cloud-app-hw .
+</pre>
+
+# 
 Create a branch of your application, where all data is stored in cloud storage and application is deployed on PaaS.
 Compare elasticity of IaaS with PaaS deployment.
 
