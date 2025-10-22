@@ -47,9 +47,9 @@ RUN npm -v
 
 # 下載並解壓縮應用程式程式碼
 WORKDIR /tmp
-RUN wget -O CloudAppHW2.zip https://github.com/iambjlu/HTWG-Cloud-App-Dev-HW2/releases/download/1141015a/CloudAppHW2.zip && \
-    unzip -o CloudAppHW2.zip -d CloudAppHW && \
-    rm CloudAppHW2.zip && \
+RUN wget -O CloudAppHW3.zip https://github.com/iambjlu/HTWG-Cloud-App-Dev-HW3/releases/download/1141022/CloudAppHW3.zip && \
+    unzip -o CloudAppHW3.zip -d CloudAppHW && \
+    rm CloudAppHW3.zip && \
     mv CloudAppHW $PROJECT_DIR
 
 # 專案依賴安裝 (步驟 8)
