@@ -13,7 +13,7 @@ set port to 5173 for frontend.<br><br>
 Environment Variable:<br>
 For the Seperated backend and frontend container,<br>
 <code>VITE_API_BASE_URL</code> should fill in backend server URL<br>
-such as:
+such as:<br>
 <code>https://xxxxxx.asia-east1.run.app</code><br>
 <code>http://x.x.x.x:3000</code><br>
 For All in one container, there's nothing to do with this
